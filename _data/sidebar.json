@@ -1,0 +1,14 @@
+{
+  "learn": {
+    "Get Started": ["installation"],
+    "Learn MXHX": ["document", "id", "tags", "namespaces", "data-binding"],
+    "Modes": ["inline-markup", "runtime-components", "build-macro"],
+    "Reference": [
+      "language-namespaces",
+      "language-tags",
+      "core-types",
+      "manifests"
+    ],
+    "Miscellaneous": ["faq"]
+  }
+}
