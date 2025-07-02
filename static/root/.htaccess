@@ -5,3 +5,8 @@ RewriteEngine On
 RewriteCond %{HTTPS} !=on
 RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L]
 </IfModule>
+
+<IfModule mod_headers.c>
+Header set X-Frame-Options "SAMEORIGIN"
+Header set Strict-Transport-Security "max-age=63072000; includeSubDomains; preload"
+</IfModule>
