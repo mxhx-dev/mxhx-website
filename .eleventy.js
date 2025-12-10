@@ -5,7 +5,7 @@ const markdownItAnchor = require("markdown-it-anchor");
 const pluginToc = require("eleventy-plugin-toc");
 
 /**
- * @typedef {import('@11ty/eleventy/UserConfig').default} UserConfig
+ * @import UserConfig from "@11ty/eleventy/UserConfig"
  */
 
 module.exports = /** @param eleventyConfig {UserConfig} */ function (
